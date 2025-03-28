@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Modal from "../aa_components/Modal.jsx";
 import Board from "./components/Board.jsx";
-import db from "../../../db/wordle.db.json";
+import db from "../../db/wordle.db.json";
 
 function isValidChar(char) {
   return "abcdefghijklmnñopqrstuvwxyz".includes(char.toLowerCase());
